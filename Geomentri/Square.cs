@@ -15,7 +15,7 @@ namespace Geomentri
             set { a = value; }
         }
 
-        public Square(double a)
+        public Square(double a) 
         {
             A = a;
         }

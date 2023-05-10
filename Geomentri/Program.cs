@@ -68,20 +68,20 @@ internal class Program
 
         // Parallelogram tests
         #region
-        Parallelogram Parallelogram1 = new Parallelogram(10, 20, 15);
+        Parallelogram Parallelogram1 = new Parallelogram(4.1, 13, 48);
         Parallelogram Parallelogram2 = new Parallelogram(15, 30, 5);
         Parallelogram Parallelogram3 = new Parallelogram(6, 14, 9);
         Parallelogram Parallelogram4 = new Parallelogram(500, 700, 100);
 
-        double p1 = retangle1.Perimeter();
-        double p2 = retangle2.Perimeter();
-        double p3 = retangle3.Perimeter();
-        double p4 = retangle4.Perimeter();
+        double p1 = Parallelogram1.Perimeter();
+        double p2 = Parallelogram2.Perimeter();
+        double p3 = Parallelogram3.Perimeter();
+        double p4 = Parallelogram4.Perimeter();
 
-        double pa1 = retangle1.Area();
-        double pa2 = retangle2.Area();
-        double pa3 = retangle3.Area();
-        double pa4 = retangle4.Area();
+        double pa1 = Parallelogram1.Area();
+        double pa2 = Parallelogram2.Area();
+        double pa3 = Parallelogram3.Area();
+        double pa4 = Parallelogram4.Area();
 
         Console.WriteLine();
         Console.WriteLine(" Parallelograms ");
